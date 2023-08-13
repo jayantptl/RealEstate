@@ -1,0 +1,138 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    font-family: 'Satisfy', cursive;
+    background-color: #e9cc9a;
+}
+.navbar-brand{
+    color:black;
+    font-weight: 700;
+}
+
+.btn{
+    color: #000;
+    background-color: #936c61;
+}
+.btn{
+    color: wheat;
+}
+
+
+.main{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) , url(./assets/img/frontimg.jpg)no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+ 
+}
+
+.title{
+    margin-bottom: 10px;
+}
+
+.main h1{
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: 'Borel', cursive;
+}
+.card{
+    border: none;
+    background-color: #e9cc9a;
+}
+
+.main select{
+    background-color: #c59980;
+    height: 40px;
+    width: 90%;
+    outline: none;
+    padding: 0 20px;
+}
+
+.Name{
+    top:1.2em;
+    font-family: 'Borel', cursive;
+}
+.main p{
+    color: rgb(104,89,89);
+    font-weight: 600;
+    font-family: 'Borel', cursive;
+}
+
+.main .btn1{
+    background-color: #95553e;
+   color: white;
+   outline: none;
+   border: none;
+   width: 90%;
+ height: 40px;
+ margin-top: 34px;
+
+}
+
+.bt_con{
+ margin: auto;
+}
+
+.btn1:hover{
+     background-color: rgb(71, 23, 14);
+     transition: 0.5s;
+     cursor: pointer;
+}
+
+
+.noData{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.noData h4{
+    font-size: 20px;
+}
+
+.sideMonth{
+    color: #68635c;
+}
+.prop h5{
+    font-weight: 600;
+}
+.prop p{
+    color: #362423;
+}
+
+.prop_cont{
+    background-color: #dfd2d2;
+    border-radius: 17px;
+    max-width: 1200px;
+    margin: auto;
+   display: flex;
+   flex-wrap: wrap;
+
+}
+
+.head{
+    font-family: 'Borel', cursive;
+}
+.prop{
+    height: 444px;
+    width: 302px;
+    margin: 47px;
+    border-radius: 15px;
+    background-color: #f9d6ff;
+    
+}
+.prop img{
+     border-top-left-radius:15px ;
+     border-top-right-radius:15px ;
+}
+
+.head{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+
+
